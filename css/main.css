@@ -1,0 +1,32 @@
+.profile {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 16px;
+}
+
+.content {
+    color: red
+}
+
+p {
+    color: green
+}
+
+#special {
+    text-align: center;
+    color: blue;
+}
+
+/*
+우선 순위
+0. style
+1. id selector
+2. class selector
+3. tag selector
+*/
