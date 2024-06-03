@@ -13,3 +13,23 @@
 .content {
     text-align: center;
 }
+
+.box {
+    width: 200px;
+    background: cadetblue;
+    margin: 10px;
+    padding: 40px;
+    border-radius: 5px;
+    /* <div>, <p>, <h> 박스 특징
+     display: block 기본으로 있음
+     따라서 생략이 가능함.
+     가로행을 전부 차지하게 해라 라는 뜻 */
+    margin-left: auto;
+    margin-right: auto;
+    /* 부모 태그에 font-size를 줘도 적용된다.
+     왜냐하면 일부 스타일은 inherit 된다.
+     inherit 지원하는 스타일은 정해져 있다.
+     font-size, font-family, color 등 */
+    color: white;
+    box-shadow: 5px 5px black;
+}
