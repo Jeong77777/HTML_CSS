@@ -44,16 +44,30 @@
     background: aquamarine
 }
 
+/*
+display: block (한 행을 전부 차지)
+display: inline-block (내 크기만큼 차지)
+*/
+
+/*
+display: inline-block 은 자기 크기만큼 자리차지함
+- 공백제거 필요
+- 주변에 글이 있으면 가끔 이상해짐
+*/
+
 .left-menu {
     width: 20%;
     height: 400px;
     background: cornflowerblue;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .right {
     width: 80%;
     height: 400px;
     background: coral;
+    display: inline-block;
 }
 
 .footer {

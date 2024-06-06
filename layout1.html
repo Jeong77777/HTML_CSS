@@ -12,9 +12,24 @@
         최대 width 같은 걸 미리 지정할 때 좋다.
         -->
         <div class="container">
+        <!-- <div class="container" style="font-size: 0px"> -->
             <div class="header"></div>
-            <div class="left-menu"></div>
-            <div class="right"></div>
+            <!--
+            inline-block을 사용할 때는 공백을 제거해야 한다.
+            inline-block 사용시 공백제거 방법
+            1. 박스사이 주석기호 활용
+            2. 부모태그에 font-size: 0px
+            (참고) 부모 태그로부터 inherit 되는 스타일은 중요도 가장 낮음
+            -->
+            <!-- <div class="left-menu" style="font-size: 20px"></div> -->
+            <div class="left-menu"></div><!--
+         --><div class="right">
+                <!--
+                baseline이 옆에 존재하면
+                display: inline-block 요소들이 baseline 위에 오려고 함
+                -->
+                <p>안녕하세요</p>
+            </div>
             <div class="footer"></div>
         </div>
 
